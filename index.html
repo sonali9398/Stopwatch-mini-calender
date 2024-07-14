@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch + Calender</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1></br>
+        <div class="buttons">
+            <span class="material-symbols-outlined" onclick="watchStop()">
+                stop_circle
+            </span>
+            <span class="material-symbols-outlined" onclick="watchStart()">
+                play_circle
+            </span>
+            <span class="material-symbols-outlined" onclick="watchRestart()">
+                restart_alt
+            </span>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="calender">
+            <div class="left">
+                <h6 id="date">01</h6></br>
+                <p id="day">Sunday</p>
+            </div>
+            <div class="right">
+                <h6 id="month">July </h6>
+                <p id="year">2024</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
